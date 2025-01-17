@@ -122,6 +122,7 @@ section{
     background:url(../img/back.png) no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     filter: blur(1px);
     
 }
@@ -178,6 +179,7 @@ section{
     line-height: 1.8;
 }
 
+/*Education Section*/
 .education .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -214,21 +216,20 @@ section{
     background:#fff;
 }
 
-
-
-.products .box-container{
+/*Experience Section */
+.experience .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.products .box-container .box{
+.experience .box-container .box{
     text-align: center;
     border:var(--border);
     padding: 2rem;
 }
 
-.products .box-container .box .icons a{
+.experience .box-container .box .icons a{
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -238,29 +239,29 @@ section{
     margin:.3rem;
 }
 
-.products .box-container .box .icons a:hover{
+.experience .box-container .box .icons a:hover{
     background:var(--main-color);
 }
 
-.products .box-container .box .image{
+.experience .box-container .box .image{
     padding: 2.5rem 0;
 }
 
-.products .box-container .box .image img{
+.experience .box-container .box .image img{
     height: 25rem;
 }
 
-.products .box-container .box .content h3{
+.experience .box-container .box .content h3{
     color:#fff;
     font-size: 2.5rem;
 }
 
-.products .box-container .box .content .price{
+.experience .box-container .box .content .price{
     color:#fff;
     font-size: 2.5rem;
 }
 
-.products .box-container .box .content .price span{
+.experience .box-container .box .content .price span{
     text-decoration: line-through;
     font-weight: lighter;
     font-size: 1.5rem;
@@ -293,6 +294,37 @@ section{
 }
 
 .skills .box-container .box{
+    color: #fff;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.projects .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.projects .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+.projects .box-container .box img{
+    height: 40rem;
+}
+
+.projects .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+.projects p {
+    font-size: large;
+}
+
+.projects .box-container .box{
     color: #fff;
     font-size: 2.5rem;
     padding:.5rem 0;
@@ -346,6 +378,50 @@ section{
     color:#fff;
     text-transform: none;
     background:none;
+}
+.contact h3{
+    font-size: 2.5rem;
+    color: #eee;
+}
+
+.contact .share{
+    padding:1rem 0;
+}
+
+.contact .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 4rem;
+    color:#ffffff;
+    border:var(--border);
+    margin:.1rem;
+    border-radius: .7%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact .share a:hover{
+    background-color: var(--main-color);
+}
+
+.contact .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.contact .links a{
+    padding:.7rem 2rem;
+    color:#fff;
+    border:var(--border);
+    font-size: 2rem;
+}
+
+.contact .links a:hover{
+    background:var(--main-color);
 }
 
 
@@ -406,17 +482,6 @@ section{
 .footer .credit span{
     color:var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
