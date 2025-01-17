@@ -115,31 +115,19 @@ section{
     display: none;
 }
 
-.header .search-form{
-    position: absolute;
-    top:115%; right: 7%;
-    background: #fff;
-    width: 50rem;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    transform: scaleY(0);
-    transform-origin: top;
-}
-
 .home{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../img/back.jpg) no-repeat;
+    background:url(../img/back.png) no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(1px);
+    filter: blur(1.2px);
     
 }
 
 .home .content{
-    max-width: 60rem;
+    max-width: 90rem;
     
 }
 
