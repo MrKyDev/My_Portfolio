@@ -122,7 +122,7 @@ section{
     background:url(../img/back.png) no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(1.2px);
+    filter: blur(1px);
     
 }
 
@@ -178,47 +178,43 @@ section{
     line-height: 1.8;
 }
 
-.menu .box-container{
+.education .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.menu .box-container .box{
+.education .box-container .box{
     padding:5rem;
     text-align: center;
     border:var(--border);    
 }
 
-.menu .box-container .box img{
+.education .box-container .box img{
     height: 40rem;
 }
 
-.menu .box-container .box h3{
+.education .box-container .box h3{
     color: #fff;
     font-size: 2rem;
     padding:1rem 0;
 }
+.education p {
+    font-size: large;
+}
 
-.menu .box-container .box .price{
+.education .box-container .box{
     color: #fff;
     font-size: 2.5rem;
     padding:.5rem 0;
 }
 
-.menu .box-container .box .price span{
-    font-size: 1.5rem;
-    text-decoration: line-through;
-    font-weight: lighter;
-}
 
-.menu .box-container .box:hover{
+.education .box-container .box:hover{
     background:#fff;
 }
 
-.menu .box-container .box:hover > *{
-    color:var(--black);
-}
+
 
 .products .box-container{
     display: grid;
