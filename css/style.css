@@ -4,7 +4,7 @@
     --main-color:#d3ad7f;
     --black:#13131a;
     --bg:#010103;
-    --border:.1rem solid rgba(255,255,255,.3);
+    --border:.1rem solid rgba(255, 255, 255, 0.582);
 }
 
 *{
@@ -256,16 +256,7 @@ section{
     font-size: 2.5rem;
 }
 
-.experience .box-container .box .content .price{
-    color:#fff;
-    font-size: 2.5rem;
-}
 
-.experience .box-container .box .content .price span{
-    text-decoration: line-through;
-    font-weight: lighter;
-    font-size: 1.5rem;
-}
 
 /*Skill Section*/
 .skills .box-container{
