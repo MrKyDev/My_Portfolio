@@ -499,14 +499,14 @@ body.noscroll {
 }
 
 .footer .share a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
+    height: 7.5rem;
+    width: 7rem;
+    line-height: 7rem;
+    font-size: 5rem;
     color:#ffffff;
     border:var(--border);
-    margin:.3rem;
-    border-radius: 50%;
+    margin:1.5rem;
+    border-radius: 40rem;
 }
 
 .footer .share a:hover{
