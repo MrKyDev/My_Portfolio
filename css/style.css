@@ -449,13 +449,13 @@ body.noscroll {
 }
 
 .contact .share a{
-    height: 4rem;
-    width: 4rem;
-    line-height: 4rem;
-    font-size: 4rem;
+    height: 6rem;
+    width: 6rem;
+    line-height: 5rem 2px;
+    font-size: 5rem;
     color:#ffffff;
     border:var(--border);
-    margin:.1rem;
+    margin:.2rem;
     border-radius: .7%;
     justify-content: center;
     align-items: center;
@@ -474,10 +474,10 @@ body.noscroll {
 }
 
 .contact .links a{
-    padding:.7rem 2rem;
+    padding:.7rem 9rem;
     color:#fff;
     border:var(--border);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .contact .links a:hover{
