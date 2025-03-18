@@ -39,6 +39,12 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: var(--bg);
+    user-select: none; /* Prevent text selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    
 }
 
 section{
